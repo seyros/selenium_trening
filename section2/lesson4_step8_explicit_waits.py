@@ -25,9 +25,11 @@ def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
 
 
-
 try:
-    browser = webdriver.Chrome()
+    # browser = webdriver.Chrome()
+    # for Windows:
+    # browser = webdriver.Firefox(executable_path='C:\geckodriver.exe')
+    browser = webdriver.Chrome(executable_path='C:\chromedriver.exe')
 
     browser.get("http://suninjuly.github.io/explicit_wait2.html")
 

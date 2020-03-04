@@ -1,1 +1,4 @@
 pyperclip
+pytest
+pytest-rerunfailures
+selenium
